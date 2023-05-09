@@ -6,28 +6,33 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
+        <artifactId>hobbit-service</artifactId>
         <groupId>org.hobbit.boot</groupId>
-        <artifactId>hobbit-boot</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hobbit-common</artifactId>
+    <artifactId>hobbit-system</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>net.dreamlu</groupId>
-            <artifactId>mica-auto</artifactId>
+            <groupId>org.hobbit</groupId>
+            <artifactId>hobbit-core-cloud</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
-        <!--hobbit-->
         <dependency>
             <groupId>org.hobbit</groupId>
-            <artifactId>hobbit-core-launch</artifactId>
+            <artifactId>hobbit-core-swagger</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.hobbit.boot</groupId>
-            <artifactId>hobbit-constant</artifactId>
+            <artifactId>hobbit-dict-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
         </dependency>
     </dependencies>
 </project>

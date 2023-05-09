@@ -1,0 +1,14 @@
+# 端口
+server:
+  port: 8100
+
+# 数据源
+spring:
+  config:
+    import:
+      - nacos:hobbit.yaml
+      - nacos:hobbit-dev.yaml
+  datasource:
+    url: ${hobbit.datasource.dev.url}
+    username: ${hobbit.datasource.dev.username}
+    password: ${hobbit.datasource.dev.password}
