@@ -8,4 +8,9 @@ package org.hobbit.constant;
  */
 public interface CacheNameConstant {
 
+  String CAPTCHA_KEY = "hobbit:auth::rapid:captcha:";
+  /**
+   * token保存至redis的key
+   */
+  String TOKEN_CACHE = "hobbit:token";
 }

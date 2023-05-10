@@ -17,6 +17,7 @@
     <modules>
         <module>hobbit-system-api</module>
         <module>hobbit-dict-api</module>
+        <module>hobbit-user-api</module>
     </modules>
 
     <dependencies>

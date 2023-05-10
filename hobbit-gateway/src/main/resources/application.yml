@@ -1,0 +1,19 @@
+# 端口
+server:
+  port: 8080
+
+# 数据源
+spring:
+  config:
+    import:
+      - nacos:hobbit.yaml
+      - nacos:hobbit-dev.yaml
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # 启用探测器，让gateway可以发现nacos中的微服务
+          enabled: true
+    loadbalancer:
+      retry:
+        enabled: true

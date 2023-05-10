@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${hobbit.datasource.system.url}
+    username: ${hobbit.datasource.system.username}
+    password: ${hobbit.datasource.system.password}
