@@ -17,7 +17,7 @@ import lombok.Data;
  */
 @Data
 @TableName("dict")
-@ApiModel(value = "Dict对象", description = "Dict对象")
+@ApiModel(value = "Dict", description = "字典")
 public class Dict implements Serializable {
 
   @JsonSerialize(using = ToStringSerializer.class)

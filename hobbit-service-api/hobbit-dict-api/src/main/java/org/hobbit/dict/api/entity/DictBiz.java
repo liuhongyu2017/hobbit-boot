@@ -16,7 +16,7 @@ import lombok.Data;
  */
 @Data
 @TableName("dict_biz")
-@ApiModel(value = "DictBiz对象", description = "DictBiz对象")
+@ApiModel(value = "DictBiz", description = "业务字典")
 public class DictBiz {
 
   @JsonSerialize(using = ToStringSerializer.class)

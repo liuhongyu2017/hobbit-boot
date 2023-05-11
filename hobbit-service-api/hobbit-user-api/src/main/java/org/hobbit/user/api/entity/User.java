@@ -11,7 +11,7 @@ import org.hobbit.core.mybatis.base.BaseEntity;
  * @author lhy
  * @version 1.0.0 2023/5/10
  */
-@ApiModel("用户表")
+@ApiModel(value = "User", description = "用户表")
 @TableName("user")
 @EqualsAndHashCode(callSuper = true)
 @Data
